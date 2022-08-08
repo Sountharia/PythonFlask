@@ -8,7 +8,10 @@
 ### Install necessary Packages
 In python terminal create a **virtual enviroment** (install if you do not have virtualenv (pip install virtualenv))
 1. py -3 -m venv venv
-2. venv/Scripts/activate - to activate the virtual environment
+2. venv/Scripts/activate - to activate the virtual environment Set-ExecutionPolicy Unrestricted -Scope Process)
+      (if you get error cannot be loaded because running scripts is disabled on this system, use the following command in Terminal)
+      (before that check Get-ExecutionPolicy -List to check the policy is Undefined for all)
+       Set-ExecutionPolicy Unrestricted -Scope Process
 3. pip install flask
 4. pip install flask-sqlalchemy
 5. pip freeze > requirement.txt (will create a file requirements with details of all the installed packages)

@@ -1,0 +1,15 @@
+.txt{
+    background-color: blueviolet;
+    border: 3px  solid blueviolet;
+    /* border-color: solid blueviolet; */
+    border-radius: 3em;
+    color: white;
+    padding: .3em .2em; 
+    text-align: center;
+    width: 6em;
+    margin: 0;
+}
+.txt:hover{
+    background-color: white;
+    color: black;
+}
